@@ -10,4 +10,4 @@ Just follow this steps to run the app:
 2. Go to web browser and input url: **http://localhost:8080/**
 
 3. And the result is something like this below:
-   ![Alt Text](/src/main/resources/static/img/helloworldresult.png "result pic")
+   ![Result](https://github.com/gilangrkun/java-learning/tree/master/Spring-MVC/helloworld/src/main/resources/static/img/helloworldresult.png "result pic")
