@@ -1,6 +1,7 @@
 ### A simple "Hello-World" project using Spring MVC
 
-to run this application:
+This project created using **Apache Maven** build-tool.
+just follow this steps to run the app:
 
 1. Write this on your terminal:
 
