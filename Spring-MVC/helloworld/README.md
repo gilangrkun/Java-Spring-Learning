@@ -10,4 +10,4 @@ Just follow this steps to run the app:
 2. Go to web browser and input url: **http://localhost:8080/**
 
 3. And the result is something like this below:
-   ![Result](Spring-MVC/helloworld/src/main/resources/static/img/helloworldresult.png "result pic")
+   ![helloworldresult](https://user-images.githubusercontent.com/60772041/82287056-7e05b180-99c9-11ea-8dbb-08d05ba64a2a.png)
