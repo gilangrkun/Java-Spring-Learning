@@ -8,12 +8,13 @@ Follow this steps to run the app:
    > \$ mvn spring-boot:run
 
 2. Go to web browser and input url:
+
    **http://localhost:8080/**
    or
    **http://localhost:8080/showCards/**
 
 3. The result is something like this:
-   ![show](https://user-images.githubusercontent.com/60772041/82419449-a4e6e500-9aa8-11ea-9a0d-683fd2a4b742.png)
+   ![show](https://user-images.githubusercontent.com/60772041/82420761-5f2b1c00-9aaa-11ea-856e-b19fe9b29ec0.png)
 
    or this:
-   ![showcards](https://user-images.githubusercontent.com/60772041/82419567-ce077580-9aa8-11ea-9775-2b5515688768.png)
+   ![showcards](https://user-images.githubusercontent.com/60772041/82420818-723dec00-9aaa-11ea-827f-fa8bb36e94f9.png)
