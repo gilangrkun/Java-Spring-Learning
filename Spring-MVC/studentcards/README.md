@@ -13,7 +13,7 @@ Follow this steps to run the app:
    or
    **http://localhost:8080/showCards/**
 
-3. The result is something like this:
+3. The result, depending on the URL which used, is something like this below:
    ![show](https://user-images.githubusercontent.com/60772041/82420761-5f2b1c00-9aaa-11ea-856e-b19fe9b29ec0.png)
 
    or this:
