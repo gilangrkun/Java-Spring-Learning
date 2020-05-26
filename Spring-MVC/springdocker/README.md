@@ -6,7 +6,7 @@ To run this project, write this command on terminal:
 
 > \$ gradle bootrun
 
-The application starts to run properly (tested on my pc) like this below:
+The application will start to run properly (tested on my pc) like this below:
 ![terminal](https://user-images.githubusercontent.com/60772041/82899503-4f697700-9f85-11ea-982e-e6a7732d1fe4.png)
 
 To check the API functionality, try it with web browser then just go into the server domain:
