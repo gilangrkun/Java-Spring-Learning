@@ -1,0 +1,7 @@
+app:
+    datasource:
+        driverClassName: org.postgresql.Driver
+        jdbc-url: jdbc:postgresql://localhost:5432/testingdb
+        username: postgres
+        password: secretpassword
+        pool-size: 30
