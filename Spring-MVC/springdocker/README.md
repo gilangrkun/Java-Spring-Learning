@@ -1,6 +1,6 @@
 ### Create a simple RESTful API using Spring-Boot
 
-This project is created with **Gradle** build-tool and also include **Docker** as a tool to connect into **PostgreSQL** database I've created before.
+This project created using **Gradle** build-tool and also including **Docker** as a tool to connect into **PostgreSQL** database I've created before.
 
 To run this project, write this command on terminal:
 
