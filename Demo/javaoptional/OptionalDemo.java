@@ -4,7 +4,7 @@ public class OptionalDemo {
     public static void main(String[] args) {
 
         // Optional<String> hello = Optional.ofNullable("hello Japan");
-        Optional<String> hello = Optional.empty();
+        Optional<String> hello = Optional.of("hello Indonesia");
 
         System.out.println(hello.isEmpty());
         System.out.println(hello.isPresent());
