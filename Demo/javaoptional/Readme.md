@@ -4,7 +4,7 @@ The purpose of the class is to provide a type-level solution for representing op
 
 There are 3 optional objects that we can use:
 
-1. empty()
+##### 1. empty()
 
 ```java
     import java.util.Optional;
@@ -12,14 +12,14 @@ There are 3 optional objects that we can use:
     public class OptionalDemo {
         public static void main(String[] args) {
 
-            // 1.
+            // 1. no values
             Optional<String> hello = Optional.empty();
 
             // to check if there is a values inside the optional
             System.out.println(hello.isEmpty());
             System.out.println(hello.isPresent());
 
-            // 2. If we put a values into an empty method, then the result will get error
+            // 2. with values
             Optional<String> hello2 = Optional.empty("Hello World");
 
         }
@@ -28,8 +28,8 @@ There are 3 optional objects that we can use:
 
 the result:
 
-1.
-![result](https://user-images.githubusercontent.com/60772041/83004582-07585c00-a03a-11ea-9b89-5b72a993301f.png)
+1. no values
+   ![result](https://user-images.githubusercontent.com/60772041/83004582-07585c00-a03a-11ea-9b89-5b72a993301f.png)
 
-2.
-![error](https://user-images.githubusercontent.com/60772041/83004627-1939ff00-a03a-11ea-9b8a-7890016d8ad1.png)
+2. with values (if we put a values into an empty method, then the result will get error)
+   ![error](https://user-images.githubusercontent.com/60772041/83004627-1939ff00-a03a-11ea-9b8a-7890016d8ad1.png)
