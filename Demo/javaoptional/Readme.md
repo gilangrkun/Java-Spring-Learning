@@ -29,7 +29,7 @@ There are 3 optional objects that we can use:
 the result:
 
 1.
-![success](https://user-images.githubusercontent.com/60772041/83002452-4802a600-a037-11ea-80d7-f4e6ddc6985e.png)
+![result](https://user-images.githubusercontent.com/60772041/83004582-07585c00-a03a-11ea-9b89-5b72a993301f.png)
 
 2.
-![error](https://user-images.githubusercontent.com/60772041/83002549-636db100-a037-11ea-9fa1-3d9be2c70c9d.png)
+![error](https://user-images.githubusercontent.com/60772041/83004627-1939ff00-a03a-11ea-9b8a-7890016d8ad1.png)
