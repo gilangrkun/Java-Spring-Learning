@@ -93,7 +93,7 @@ now the result we have is the opposite result from **empty()** method:
 The result, both with null or a values, will not getting error message.
 ![successnull](https://user-images.githubusercontent.com/60772041/83244009-f5f18a00-a1c8-11ea-8425-3cb4f1d7a026.png)
 
-Now we knew that **ofNullable()** works greatly with or without values (null). Also we can use **isPresentOrElse()** method to handle program that we're not sure about the presence of a values. For instance:
+Now we knew that **ofNullable()** works greatly with or without values (null). Also we can use **isPresentOrElse()** method to handle program that we're not sure about the presence of a values from input user. For instance:
 
 ```java
     import java.util.Optional;
@@ -128,3 +128,5 @@ Now we knew that **ofNullable()** works greatly with or without values (null). A
 
 And the result is something like this...
 ![halak](https://user-images.githubusercontent.com/60772041/83246089-d314a500-a1cb-11ea-9267-24e5355f36c1.png)
+
+Keep learning and stay hacking! :wink:
