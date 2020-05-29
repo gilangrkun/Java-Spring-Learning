@@ -13,7 +13,7 @@ There are 3 optional objects that we can use:
         public static void main(String[] args) {
 
             // 1. no values
-            Optional<String> hello = Optional.empty();
+            Optional<String> hello = Optional.empty(null);
 
             // to check if there is a values inside the optional
             System.out.println(hello.isEmpty());
@@ -42,11 +42,11 @@ the result:
     public class OptionalDemo {
         public static void main(String[] args) {
 
-            // 1. no values
-            Optional<String> hello = Optional.of();
+            // 1. putting null inside bcs the method must include a values
+            Optional<String> hello = Optional.of(null);
 
             // 2. with values
-            Optional<String> hello2 = Optional.empty("Hello World");
+            Optional<String> hello2 = Optional.of("Hello World");
 
             // to check if there is a values inside the optional
             System.out.println(hello2.isEmpty());
@@ -58,8 +58,73 @@ the result:
 
 now the result we have is the opposite result from **empty()** method:
 
-1. no values (if we put no values in the **of()** method, then the result will return error)
-   ![null](https://user-images.githubusercontent.com/60772041/83019948-fca9c100-a051-11ea-8a9e-3d99771e94bf.png)
+1. if we put null in the **of()** method, then the result will return error
+   ![null](https://user-images.githubusercontent.com/60772041/83243959-e114f680-a1c8-11ea-8fea-f3ec0f384654.png)
 
 2. with values (the **isEmpty()** return boolean _false_, meanwhile the **isPresent()** return boolean _true_)
    ![success](https://user-images.githubusercontent.com/60772041/83020566-d89aaf80-a052-11ea-9939-637832150001.png)
+
+#### 3. _ofNullable()_
+
+```java
+    import java.util.Optional;
+
+    public class OptionalDemo {
+        public static void main(String[] args) {
+
+            // 1. putting null inside bcs the method must include a values
+            Optional<String> hello = Optional.ofNullable(null);
+
+            // to check if there is a values inside the optional
+            System.out.println("\n" + hello.isEmpty());
+            System.out.println(hello.isPresent());
+
+            // 2. with values
+            Optional<String> hello2 = Optional.ofNullable("Hello World");
+
+            // to check if there is a values inside the optional
+            System.out.println("\n" + hello2.isEmpty());
+            System.out.println(hello2.isPresent());
+
+        }
+    }
+```
+
+The result, both with null or a values, will not getting error message.
+![successnull](https://user-images.githubusercontent.com/60772041/83244009-f5f18a00-a1c8-11ea-8425-3cb4f1d7a026.png)
+
+Now we knew that **ofNullable()** works greatly with or without values (null). Also we can use **isPresentOrElse()** method to handle program that we're not sure about the presence of a values. For instance:
+
+```java
+    import java.util.Optional;
+
+    public class OptionalDemo {
+        public static void main(String[] args) {
+
+            // 1. with values input
+            Optional<String> hello = Optional.ofNullable("hello world");
+
+            // use isPresentOrElse() to handle null input and vice versa.
+            System.out.print("\n1. ");
+            hello.isPresentOrElse(present ->{
+                System.out.println(present)
+            }, () ->{
+                System.out.println("hello UK")
+            });
+
+            // 2. null input
+            Optional<String> hello2 = Optional.ofNullable(null);
+
+            // use isPresentOrElse() to handle null input and vice versa.
+            System.out.print("\n2. ");
+            hello2.isPresentOrElse(present ->{
+                System.out.println(present)
+            }, () ->{
+                System.out.println("hello UK")
+            });
+        }
+    }
+```
+
+And the result is something like this...
+![halak](https://user-images.githubusercontent.com/60772041/83246089-d314a500-a1cb-11ea-9267-24e5355f36c1.png)
