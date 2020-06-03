@@ -1,2 +1,3 @@
 # java-learning
-Some trial tasks when I used java for language.
+
+**_This repository is created particularly for learning back-end development_**.
