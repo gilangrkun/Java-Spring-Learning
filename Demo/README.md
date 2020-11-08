@@ -1,3 +1,4 @@
 What I have learned:
 
-- [javaoptional](https://github.com/gilangrkun/java-learning/tree/master/Demo/javaoptional)
+- [JavaOptional](https://github.com/gilangrkun/java-learning/tree/master/Demo/javaoptional)
+- [JavaStandardClasses](https://github.com/gilangrkun/java-learning/tree/master/Demo/javastring)
